@@ -8,6 +8,8 @@ namespace Taller2D262
 {
     internal class Menu
     {
+        private int a;
+
         public void Execute()
         {
             string name;
