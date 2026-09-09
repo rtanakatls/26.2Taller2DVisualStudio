@@ -8,5 +8,16 @@ namespace Taller2D262
 {
     internal class Player
     {
+        private string name;
+        private int hp;
+        private int level;
+
+        public Player(string name, int hp, int level)
+        {
+            this.name = name;
+            this.hp = hp;
+            this.level = level;
+        }
+
     }
 }
