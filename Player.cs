@@ -15,9 +15,10 @@ namespace Taller2D262
 
         private int experience;
 
-        public Player(string name, int hp, int level)
+        public Player(string name,int experience, int hp, int level)
         {
             this.name = name;
+            this.experience = experience;
             this.hp = hp;
             this.level = level;
         }
