@@ -9,6 +9,7 @@ namespace Taller2D262
     internal class Player
     {
         private string name;
+        private int id;
         private int hp;
         private int level;
 
